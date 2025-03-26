@@ -11,7 +11,7 @@ def load_images(folder):
 
 
 # Root directory where images are stored
-root_folder = "Trousers_alle"
+root_folder = "dresses_alle"
 
 st.title("Dress Tryon View <> Pinterest Flow")
 

@@ -35,6 +35,7 @@ if os.path.exists(root_folder):
             for col, (filename, img) in zip(cols, images):
                 if img:
                     col.image(img, use_container_width=True)
+                    col.write(f"{filename}")
                     col.write(f"Size: {img.width} x {img.height}")
                 else:
                     col.write(f"**{filename}** (Not Found)")

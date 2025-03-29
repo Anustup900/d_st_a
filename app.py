@@ -4,7 +4,7 @@ from PIL import Image
 
 
 def load_images(folder):
-    image_files = ['idea.png', 'base4.png', 'base2.png', 'base3.png', 'base.png']
+    image_files = ['product.png', 'base.png', 'tryon3.png', 'tryon_n.png']
     images = []
     for img in image_files:
         img_path = os.path.join(folder, img)
@@ -36,7 +36,6 @@ if os.path.exists(root_folder):
                 if img:
                     col.image(img, use_container_width=True)
                     col.write(f"{filename}")
-                    col.write(f"Size: {img.width} x {img.height}")
                 else:
                     col.write(f"**{filename}** (Not Found)")
 else:

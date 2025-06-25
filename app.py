@@ -19,7 +19,7 @@ def load_images(folder):
 # Root directory where images are stored
 root_folder = "Dress_final_set"
 
-st.title("Dress Tryon View <> Pinterest Flow")
+st.title("Tops Tryon View <> Pinterest Flow")
 
 if os.path.exists(root_folder):
     subfolders = sorted(os.listdir(root_folder))
